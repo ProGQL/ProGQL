@@ -1,3 +1,3 @@
 ### 🔭 I’m currently working on README...
 
-![Framework](figs/ProGQL.pdf)
+![Framework](figs/ProGQL.png)
