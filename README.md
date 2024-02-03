@@ -8,7 +8,6 @@ Moreover, most of these techniques load all the event data into memory and thus 
 To address these fundamental limitations, we propose the ProGQL framework, which provides (1) a novel domain-specific graph search language to let security experts customize PA and manipulate the output graph, and (2) a novel query engine that optimizes the execution of a ProGQL query over a colossal amount of system audit events. 
 In particular, our ProGQL framework employs a database backend that can be formed by a single type of database or a mixed type of databases, and performs incremental graph search to minimize memory consumption. 
 
-###*\ Introduction
 ![Framework](figs/ProGQL.png)
 
 Our ProGQL framework consists of 3 major modules, as shown above.
@@ -22,7 +21,9 @@ In particular, incremental graph search is adopted to optimize the memory footpr
 - The value propagation component propagates the values defined in the query context for each node.
 - The output processing component performs union or intersection of the graphs defined in the query context and outputs the processed graph as the provenance graph.
 
-## Requirements
+## Technical
+
+# Prerequisites
 
 JAVA Version: 1.8
 
@@ -33,4 +34,6 @@ Databases:
 - MariaDB 10.4.19 with username:root and passwod:12345678
 - Myrocks (Facebook MySQL 5.6.35) with username:root and no password
 
-## Usage
+## Using
+
+1. Execute [Link to create.sql](db scripts/create.sql) in PostgresSQL to create tables for storing the models extracted from the logs. 
