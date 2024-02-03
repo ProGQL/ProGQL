@@ -35,5 +35,23 @@ Databases:
 - Myrocks (Facebook MySQL 5.6.35) with username:root and no password
 
 ## Using
+To simplify the explanation, we've collected a small Sysdig log file and created a demo. This is helpful as the process involves handling both Sysdig and DarpaTC logs, along with support for multiple databases, making the explanation inherently complex.
 
-1. Execute [Link to create.sql](db%20scripts/create.sql) in PostgresSQL to create tables for storing the models extracted from the logs. 
+1. Execute [create.sql](db%20scripts/create.sql) in PostgresSQL to create tables for storing the data models extracted from the logs.
+2. Run the following command to parse the log file and batch insert the extracted data models into PostgresSQL database.
+   ```bash
+   java -Xmx100g -jar dist/SysdigParser.jar data/demo_data.txt postgres/demo
+  ```
+
+  The last parameter specifies the database is PostgresSQL and the db name is "demo". It can be replaced with another database (E.g., myrocks, mariadb) when working with a different database.
+
+  P.S. Note the DarpaTC log files have different formats so we created a different parser to deal with them. Run the following command for DarpaTC:
+  ```bash
+   java -Xmx100g -jar dist/DarpaParser.jar file:theia.bin -np -csf data/darpatc%20schema/TCCDMDatum.avsc -wj -busy -nid <node id> -eid <event id> -db postgres/theia
+  ```
+
+  The value of <node id> is derived as the maximum ID across all node tables incremented by one, while <event id> is determined similarly as the maximum ID value across all event tables increased by one. This is necessary because loading the entire DarpaTC logs into memory is impractical. Therefore, we split them into smaller segments and process each one sequentially. To prevent the insertion of duplicate IDs into the tables, we specify starting ID values for each run.
+
+3. 
+  
+
