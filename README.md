@@ -36,4 +36,4 @@ Databases:
 
 ## Using
 
-1. Execute [Link to create.sql](db scripts/create.sql) in PostgresSQL to create tables for storing the models extracted from the logs. 
+1. Execute [Link to create.sql](db%20scripts/create.sql) in PostgresSQL to create tables for storing the models extracted from the logs. 
