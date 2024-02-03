@@ -45,10 +45,10 @@ To simplify the explanation, we've collected a small Sysdig log file and created
   The last parameter specifies the database is PostgresSQL and the db name is "demo". It can be replaced with another database (E.g., myrocks, mariadb) when working with a different database.
 
   P.S. Note the DarpaTC log files have different formats so we created a different parser to deal with them. Run the following command for DarpaTC:
-  ```bash
-   java -Xmx100g -jar dist/DarpaParser.jar file:theia.bin -np -csf data/darpatc%20schema/TCCDMDatum.avsc -wj -busy -nid <node id> -eid <event id> -db postgres/theia
 
-  The value of <node id> is derived as the maximum ID across all node tables incremented by one, while <event id> is determined similarly as the maximum ID value across all event tables increased by one. This is necessary because loading the entire DarpaTC logs into memory is impractical. Therefore, we split them into smaller segments and process each one sequentially. To prevent the insertion of duplicate IDs into the tables, we specify starting ID values for each run.
+  java -Xmx100g -jar dist/DarpaParser.jar file:theia.bin -np -csf data/darpatc%20schema/TCCDMDatum.avsc -wj -busy -nid <node id> -eid <event id> -db postgres/theia
+
+   The value of <node id> is derived as the maximum ID across all node tables incremented by one, while <event id> is determined similarly as the maximum ID value across all event tables increased by one. This is necessary because loading the entire DarpaTC logs into memory is impractical. Therefore, we split them into smaller segments and process each one sequentially. To prevent the insertion of duplicate IDs into the tables, we specify starting ID values for each run.
 
 3. 
   
