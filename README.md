@@ -23,7 +23,7 @@ In particular, incremental graph search is adopted to optimize the memory footpr
 
 ## Technical
 
-# Prerequisites
+### Prerequisites
 
 JAVA Version: 1.8
 
@@ -34,7 +34,7 @@ Databases:
 - MariaDB 10.4.19 with username:root and passwod:12345678
 - Myrocks (Facebook MySQL 5.6.35) with username:root and no password
 
-## Using
+### Using
 To simplify the explanation, we've collected a small Sysdig log file and created a demo. This is helpful as the process involves handling both Sysdig and DarpaTC logs, along with support for multiple databases, making the explanation inherently complex.
 
 1. Execute [create.sql](db%20scripts/create.sql) in PostgresSQL to create tables for storing the data models extracted from the logs.
