@@ -1,4 +1,3 @@
-### 🔭 I’m currently working on README...
 ## Introduction
 
 Provenance analysis (PA) has recently emerged as an important solution for cyber attack investigation.
