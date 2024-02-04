@@ -51,8 +51,8 @@ To simplify the explanation, we've collected a small Sysdig log file and created
    The value of <node id> is derived as the maximum ID across all node tables incremented by one, while <event id> is determined similarly as the maximum ID value across all event tables increased by one. This is necessary because loading the entire DarpaTC logs into memory is impractical. Therefore, we split them into smaller segments and process each one sequentially. To prevent the insertion of duplicate IDs into the tables, we specify starting ID values for each run.
 
 3. To import the data into Neo4j and Nebula, we first export the data to the csv files, then leverage the import tools of the respective graph databases (Neo4j-admin import tool and Nebula Importer) to import the csv data to an empty database by specifying node files and relationship files.
-4. Write ProGQL query (E.g., [bfsdemo.txt](demo/bfsdemo.txt)) for provenance graph generation.
-5. Run the following command to generate the provenance graph ([case1.dot](demo/case1.dot)), record the peak runtime memory consumption ([memory.txt](demo/memory.txt)), and log the execution details ([demo.log](demo/demo.log)).
+4. Write ProGQL query (E.g., [bfsdemo.txt](Demo/bfsdemo.txt)) for provenance graph generation.
+5. Run the following command to generate the provenance graph ([case1.dot](Demo/case1.dot)), record the peak runtime memory consumption ([memory.txt](Demo/memory.txt)), and log the execution details ([demo.log](Demo/demo.log)).
    ```bash
    /usr/bin/time -v -o >(grep "Maximum resident set size (kbytes):" | awk '{print $6}' > demo/memory.txt)   java -Xmx100g -jar dist/ProGQL.jar   -file demo/bfsdemo.txt   -db postgres/demo   -output demo/case1 > demo/demo.log 2>&1
   
