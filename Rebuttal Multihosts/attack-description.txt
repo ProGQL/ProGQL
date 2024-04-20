@@ -1,3 +1,7 @@
 Shellshock Penetration
 
-After the initial shellshock penetration at Host 1(192.168.1.131), the attacker downloads a malicious script(gather_password.sh) from the attacker server(192.168.1.123) to Host 1 and executes it. "gather_password.sh" scans the ssh configuration file to locate reachable hosts in the network, discovering Host 2(192.168.1.128). After this discovery phase, "gather_password.sh" downloads another malicious script(crack_passwd.sh) from the attacker server, sends it to Host 2 and executes it. "crack_passwd.sh" downloads "john.zip" from the attacker server and cracks the passwords and stores in "/tmp/john/password_crack.txt". Host1 scps "/tmp/john/password_crack.txt" back and stored it as "/tmp/Host2.passwd".
+After the initial shellshock penetration at Host 1(192.168.1.131), the attacker downloads a malicious script(gather_password.sh) from the attacker server(192.168.1.123) to Host 1 and executes it. 
+"gather_password.sh" scans the ssh configuration file to locate reachable hosts in the network, discovering Host 2(192.168.1.128). 
+After this discovery phase, "gather_password.sh" downloads another malicious script(crack_passwd.sh) from the attacker server, sends it to Host 2 and executes it. 
+"crack_passwd.sh" downloads "john.zip" from the attacker server and cracks the passwords and stores in "/tmp/john/password_crack.txt". 
+Host1 scps "/tmp/john/password_crack.txt" back and stored it as "/tmp/Host2.passwd".
