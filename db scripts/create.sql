@@ -62,3 +62,5 @@ CREATE TABLE IF NOT EXISTS NetworkEvent (
 	EventNo bigint NOT NULL
 )
 
+-- Add hostid integer to all the tables for multi-host cases.
+
