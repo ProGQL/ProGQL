@@ -1,0 +1,1 @@
+MATCH (p:process)-[st:fileevent{optype:"write"}]->(f:file{name:"/tmp/tcexec"}) RETURN id(p) as srcid, id(f) as dstid, st.amount as amount, st.starttime as starttime, st.endtime as endtime;

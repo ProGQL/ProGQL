@@ -1,21 +1,21 @@
 	Command being timed: "java -Xmx100g -jar /home/feishao/DepGQL.jar -file /home/feishao/GQLQueries/vpnfilter/vpn.txt -db myrocks/multihost -output Top3/myrocksvpn"
-	User time (seconds): 38.18
-	System time (seconds): 9.81
-	Percent of CPU this job got: 74%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:04.51
+	User time (seconds): 44.18
+	System time (seconds): 14.42
+	Percent of CPU this job got: 66%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:28.76
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2387684
+	Maximum resident set size (kbytes): 2244384
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 17
-	Minor (reclaiming a frame) page faults: 1753086
-	Voluntary context switches: 280113
-	Involuntary context switches: 951
+	Minor (reclaiming a frame) page faults: 2497136
+	Voluntary context switches: 316500
+	Involuntary context switches: 1803
 	Swaps: 0
-	File system inputs: 53632
-	File system outputs: 3992
+	File system inputs: 54040
+	File system outputs: 5496
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

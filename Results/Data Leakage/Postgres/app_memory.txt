@@ -1,21 +1,21 @@
 	Command being timed: "java -Xmx100g -jar /home/feishao/DepGQL.jar -file /home/feishao/GQLQueries/dataleak/leak.txt -db postgres/multihost -output Top4/postgresleak"
-	User time (seconds): 26.82
-	System time (seconds): 5.28
-	Percent of CPU this job got: 110%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.97
+	User time (seconds): 27.12
+	System time (seconds): 5.80
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.48
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 868584
+	Maximum resident set size (kbytes): 919252
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 104
-	Minor (reclaiming a frame) page faults: 794037
-	Voluntary context switches: 189178
-	Involuntary context switches: 757
+	Major (requiring I/O) page faults: 14
+	Minor (reclaiming a frame) page faults: 662854
+	Voluntary context switches: 188518
+	Involuntary context switches: 945
 	Swaps: 0
-	File system inputs: 93096
-	File system outputs: 1944
+	File system inputs: 65920
+	File system outputs: 2072
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

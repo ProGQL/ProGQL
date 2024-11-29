@@ -1,1 +1,23 @@
-4641868
+	Command being timed: "java -Xmx100g -jar /home/feishao/DepGQL.jar -file /home/feishao/bfstrace5.txt -db postgres/tracenew -output Top3/trace5"
+	User time (seconds): 372.13
+	System time (seconds): 155.05
+	Percent of CPU this job got: 40%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 21:29.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8300184
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 14
+	Minor (reclaiming a frame) page faults: 25494049
+	Voluntary context switches: 5404250
+	Involuntary context switches: 14183
+	Swaps: 0
+	File system inputs: 65584
+	File system outputs: 279048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,5 @@
+MATCH (p:process)-[st:fileevent{optype:"write"}]->(f:file{name:"/tmp/tcexec"}) RETURN id(p) as srcid, id(f) as dstid, st.amount as amount, st.starttime as starttime, st.endtime as endtime;Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 9
+	at java.lang.String.substring(String.java:1963)
+	at traversal.nebula.NebulaTraversal.traverse(NebulaTraversal.java:191)
+	at main.Main.processSingleQuery(Main.java:329)
+	at main.Main.main(Main.java:156)

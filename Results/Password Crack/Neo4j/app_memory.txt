@@ -1,21 +1,21 @@
 	Command being timed: "java -Xmx100g -jar /home/feishao/DepGQL.jar -file /home/feishao/GQLQueries/shellshock/pwd.txt -db /home/feishao/neo4j-community-3.5.11/data/databases/multihost.db -output Top15/neo4jpwd"
-	User time (seconds): 48.36
-	System time (seconds): 4.05
-	Percent of CPU this job got: 200%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.12
+	User time (seconds): 44.81
+	System time (seconds): 3.35
+	Percent of CPU this job got: 197%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.36
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1905892
+	Maximum resident set size (kbytes): 2039248
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 115
-	Minor (reclaiming a frame) page faults: 1706778
-	Voluntary context switches: 57894
-	Involuntary context switches: 1801
+	Major (requiring I/O) page faults: 18
+	Minor (reclaiming a frame) page faults: 1211729
+	Voluntary context switches: 58220
+	Involuntary context switches: 1737
 	Swaps: 0
-	File system inputs: 226088
-	File system outputs: 2608
+	File system inputs: 198400
+	File system outputs: 3424
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

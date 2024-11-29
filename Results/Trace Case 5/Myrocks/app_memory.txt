@@ -1,1 +1,23 @@
-3422800
+	Command being timed: "java -Xmx100g -jar /home/feishao/DepGQL.jar -file /home/feishao/bfstrace5.txt -db myrocks/trace -output Top3/trace5"
+	User time (seconds): 523.13
+	System time (seconds): 225.13
+	Percent of CPU this job got: 26%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 47:07.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7282500
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 15
+	Minor (reclaiming a frame) page faults: 31256476
+	Voluntary context switches: 5462850
+	Involuntary context switches: 22515
+	Swaps: 0
+	File system inputs: 52560
+	File system outputs: 277840
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

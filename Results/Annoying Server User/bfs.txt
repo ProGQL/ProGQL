@@ -5,6 +5,6 @@ MATCH (p:Process)-[st:FileEvent{optype:"rename"}]->(f:File{name:"/home/feishao/s
 	MATCH u=src(e) SET u.rel=reduce(sum = 0, o IN out(u) | sum+o.weight*dst(o).rel)
 	RETURN g1
 intersect
-	WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 4)
+	WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 3)
 	BFS (re IN forward(entry) | MATCH u=src(re) Where re.endtime>min(collect(uin IN in(u) | uin.starttime)) and re.starttime<1679372044752250775) yield g2
 	RETURN g2	

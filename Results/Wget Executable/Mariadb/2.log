@@ -1,0 +1,2 @@
+select nt.id as nodeid, et.* from file nt join fileevent et on nt.id=et.dstid where nt.name='/home/feishao/sysrep_random' and et.optype='write'
+startNode: 1706 edgeTime:1679365829985208769
