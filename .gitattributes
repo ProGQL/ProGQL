@@ -1,3 +1,6 @@
 dist/DarpaParser.jar filter=lfs diff=lfs merge=lfs -text
 dist/SysdigParser.jar filter=lfs diff=lfs merge=lfs -text
 dist/ProGQL.jar filter=lfs diff=lfs merge=lfs -text
+logs/MultihostLogs/victim1-131.txt filter=lfs diff=lfs merge=lfs -text
+logs/MultihostLogs/victim2-128.txt filter=lfs diff=lfs merge=lfs -text
+logs/SysdigLog/fslog.zip filter=lfs diff=lfs merge=lfs -text
