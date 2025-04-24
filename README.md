@@ -5,7 +5,7 @@ PA leverages system monitoring to monitor system activities as a series of syste
 However, existing PA techniques *are not extensible* and cannot easily incorporate expert knowledge to customize the output provenance graph.
 Moreover, most of these techniques load all the event data into memory and thus *are not scalable* (requiring $>100GB$ memory). 
 To address these fundamental limitations, we propose the ProGQL framework, which provides (1) a novel domain-specific graph search language to let security experts customize PA and manipulate the output graph, and (2) a novel query engine that optimizes the execution of a ProGQL query over a colossal amount of system audit events. 
-In particular, our ProGQL framework employs a database backend that can be formed by a single type of database or a mixed type of databases, and performs incremental graph search to minimize memory consumption. 
+In particular, our ProGQL framework employs a database backend that can be built using different types of databases and performs incremental graph search to minimize memory consumption. 
 
 ![Framework](figs/ProGQL.png)
 

@@ -1,0 +1,8 @@
+digraph G {
+  13259 [ label="13259: \Device\HarddiskVolume2\Windows\Prefetch\PASS_MGR.EXE-8B30272C.pf" shape="ellipse" ];
+  581317 [ label="581317: "C:\Program Files\Mozilla Firefox\add-on\pass_mgr.exe" "C:\Program Files\Mozilla Firefox\add-on\pass_mgr.json"" shape="box" ];
+  582261 [ label="582261: "C:\Program Files\Mozilla Firefox\add-on\pass_mgr.exe" "C:\Program Files\Mozilla Firefox\add-on\pass_mgr.json"" shape="box" ];
+  582231 [ label="582231: \Device\HarddiskVolume2\Program Files\Mozilla Firefox\add-on\hJauWl01" shape="ellipse" ];
+  13259 -> 581317 [ label="101051473" ];
+  582261 -> 582231 [ label="101146139" ];
+}

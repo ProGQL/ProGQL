@@ -1,0 +1,15 @@
+digraph G {
+  206 [ label="206: /lib/x86_64-linux-gnu/libc-2.15.so" shape="ellipse" ];
+  837215 [ label="837215: /var/log/mail" shape="box" ];
+  239 [ label="239: /lib/x86_64-linux-gnu/libpthread-2.15.so" shape="ellipse" ];
+  837216 [ label="837216: 128.55.12.110/32:43730->149.52.198.23/32:80" shape="parallelogram" ];
+  837207 [ label="837207: /var/log/mail" shape="ellipse" ];
+  837206 [ label="837206: /home/admin/profile" shape="box" ];
+  837684 [ label="837684: 128.55.12.110/32:55048->128.55.12.110/32:22" shape="parallelogram" ];
+  206 -> 837215 [ label="36180712" ];
+  239 -> 837215 [ label="36180710" ];
+  837216 -> 837215 [ label="36180714" ];
+  837207 -> 837215 [ label="36180707" ];
+  837206 -> 837207 [ label="36180388" ];
+  837215 -> 837684 [ label="36218380" ];
+}

@@ -1,3 +1,6 @@
 dist/DarpaParser.jar
 dist/SysdigParser.jar
 dist/ProGQL.jar
+logs/MultihostLogs/victim1-131.txt
+logs/MultihostLogs/victim2-128.txt
+logs/SysdigLog/fslog.zip
