@@ -7,7 +7,7 @@ Moreover, most of these techniques load all the event data into memory and thus 
 To address these fundamental limitations, we propose the ProGQL framework, which provides (1) a novel domain-specific graph search language to let security experts customize PA and manipulate the output graph, and (2) a novel query engine that optimizes the execution of a ProGQL query over a colossal amount of system audit events. 
 In particular, our ProGQL framework employs a database backend that can be built using different types of databases and performs incremental graph search to minimize memory consumption. 
 
-![Framework](figs/ProGQL Architecture.drawio.png)
+![Framework](figs/ProGQL.png)
 
 Our ProGQL framework consists of 3 major modules, as shown above.
 1. The data importer module takes system auditing logs as input, and performs batch insertion into the database backend. 
