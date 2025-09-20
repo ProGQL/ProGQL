@@ -1,0 +1,7 @@
+Data Leakage,TP,FP,FN,Total,FPR,FNR,Precision,Recall,F1,Entry Node Identified - Host 1,Entry Node Identified - Host 2
+1-feature-top2,16,244,1,260,0.9385,0.0588,0.0615,0.9412,0.1155,N,N
+1-feature-top4,17,269,0,286,0.9406,0.0000,0.0594,1.0000,0.1122,Y,N
+1-feature-top6,17,374,0,391,0.9565,0.0000,0.0435,1.0000,0.0833,Y,N
+3-feature-top2,16,244,1,260,0.9385,0.0588,0.0615,0.9412,0.1155,N,N
+3-feature-top4,17,248,0,265,0.9358,0.0000,0.0642,1.0000,0.1206,Y,N
+3-feature-top6,17,264,0,281,0.9395,0.0000,0.0605,1.0000,0.1141,Y,Y
