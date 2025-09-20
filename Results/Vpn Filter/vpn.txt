@@ -5,39 +5,28 @@ MATCH (p:Process{id:663})-[st:NetworkEvent{id:29704}]->(f:Network{srcip:"192.168
 	MATCH u=src(e) SET u.rel=reduce(sum = 0, o IN out(u) | sum+o.weight*dst(o).rel)
 	RETURN g1
 intersect
-WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 3)
+WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 4)
 	BFS (re IN forward(entry) | MATCH u=src(re) Where re.endtime>min(collect(uin IN in(u) | uin.starttime)) and re.starttime<1724732319377872104) yield g2
 	RETURN g2
 UNION
-(MATCH (p:Process)-[st:FileEvent{optype:"write"}]->(f:File{name:"/home/fs1/malicious.sh", hostid:"2"})
+(MATCH (p:Process)-[st:FileEvent{optype:"write"}]->(f:File{name:"/var/stage2", hostid:"2"})	
 	BFS (r IN backward(f) | MATCH v=dst(r) Where r.starttime<max(collect(vout IN out(v) | vout.endtime))) YIELD g1
 	UNWIND g1 AS e
 	SET e.weight=projection(1/(abs(r.amount-st.amount)+0.0001),ln(1+1/abs(r.endtime-st.endtime)),count(out(v))/count(in(v)))
 	MATCH u=src(e) SET u.rel=reduce(sum = 0, o IN out(u) | sum+o.weight*dst(o).rel)
 	RETURN g1
 intersect
-WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 3)
+WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 2)
 	BFS (re IN forward(entry) | MATCH u=src(re) Where re.endtime>min(collect(uin IN in(u) | uin.starttime)) and re.starttime<1724732531452003131) yield g2
 	RETURN g2)
 UNION
-(MATCH (p:Process)-[st:FileEvent{optype:"write"}]->(f:File{name:"/tmp/vpnfilter", hostid:"2"})
+(MATCH (p:Process)-[st:FileEvent{optype:"write"}]->(f:File{name:"/tmp/vpnfilter", hostid:"2"})	
 	BFS (r IN backward(f) | MATCH v=dst(r) Where r.starttime<max(collect(vout IN out(v) | vout.endtime))) YIELD g1
 	UNWIND g1 AS e
 	SET e.weight=projection(1/(abs(r.amount-st.amount)+0.0001),ln(1+1/abs(r.endtime-st.endtime)),count(out(v))/count(in(v)))
 	MATCH u=src(e) SET u.rel=reduce(sum = 0, o IN out(u) | sum+o.weight*dst(o).rel)
 	RETURN g1
 intersect
-WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 3)
-	BFS (re IN forward(entry) | MATCH u=src(re) Where re.endtime>min(collect(uin IN in(u) | uin.starttime)) and re.starttime<1724732372001719913) yield g2
-	RETURN g2)
-UNION
-(MATCH (p:Process)-[st:FileEvent{optype:"write"}]->(f:File{name:"/var/stage2", hostid:"2"})
-	BFS (r IN backward(f) | MATCH v=dst(r) Where r.starttime<max(collect(vout IN out(v) | vout.endtime))) YIELD g1
-	UNWIND g1 AS e
-	SET e.weight=projection(1/(abs(r.amount-st.amount)+0.0001),ln(1+1/abs(r.endtime-st.endtime)),count(out(v))/count(in(v)))
-	MATCH u=src(e) SET u.rel=reduce(sum = 0, o IN out(u) | sum+o.weight*dst(o).rel)
-	RETURN g1
-intersect
-WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 3)
-	BFS (re IN forward(entry) | MATCH u=src(re) Where re.endtime>min(collect(uin IN in(u) | uin.starttime)) and re.starttime<1724732375008456085) yield g2
+WITH entry = (MATCH n in nodes(r) WHERE count(in(n))=0 ORDER BY n.rel DESC LIMIT 12)
+	BFS (re IN forward(entry) | MATCH u=src(re) Where re.endtime>min(collect(uin IN in(u) | uin.starttime)) and re.starttime<1724732531452003131) yield g2
 	RETURN g2)
