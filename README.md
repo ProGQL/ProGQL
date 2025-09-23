@@ -18,7 +18,7 @@ The query engine consists of four components:
 In particular, incremental graph search is adopted to optimize the memory footprint and minimize search scope.
 - The weight computation component applies the weight computation function defined in the query context for each edge.
 - The value propagation component propagates the values defined in the query context for each node.
-- The output processing component performs union or intersection of the graphs defined in the query context and outputs the processed graph as the provenance graph.
+- The graph merge component performs union or intersection of the graphs defined in the query context and outputs the processed graph as the provenance graph.
 
 ## Technical
 
